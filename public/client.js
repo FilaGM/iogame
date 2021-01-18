@@ -6,6 +6,9 @@ var self = {}
 
 var canvas = document.getElementById("ctx")
 var ctx = canvas.getContext("2d")
+
+var mainPlayer = new Image()
+mainPlayer.src = "/image/player_local.png"
 //= = =
 
 canvas.height = window.innerHeight
