@@ -73,7 +73,7 @@ http.listen(PORT, () => {
 //= = = sockets = = =
 io.on('connection', (socket) => {
     var newUser = {
-        token:getToken(20),
+        token:getToken(100),
     }
     users.push(newUser)
     socket.emit("getSelfInfo",newUser)
