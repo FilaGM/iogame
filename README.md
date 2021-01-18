@@ -2,6 +2,6 @@
 
 The best shit ever
 
-TODO: 
-( ) John cena
-( ) shit
+TODO: <br>
+[ ] John cena
+[x] shit
